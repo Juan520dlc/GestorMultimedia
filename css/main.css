@@ -1,0 +1,126 @@
+/* Código para eliminar ciertos valores de espacios que estan en Default */
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+/*:::::Barra de Navegación:::::*/
+nav {
+    background: darkgray;
+    height: 80px;
+    width: 100%;
+}
+/* Posición del "Menu Hamburguesa" */
+.index_link{
+    position: absolute;
+    padding: 20px 50px;
+}
+/* Tamaño del logo */
+.logo{
+    height: 80px;
+    margin-left: -40px;
+    margin-top: -20px;
+}
+/* Posición del menu estático*/
+nav ul{
+    float: right;
+    margin-left: 20px;
+}
+/* Posición de cada elemento "li" */
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 5px;
+}
+/* Cada opción del menu se encuentra en esta parte */
+nav ul li a{
+    color: white;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+}
+/* Cuando la flecha del mouse pasa por encima, se ilumina la opcion */
+li a.active, li a:hover{
+    background: darkslateblue;
+    transition: .5s;
+}
+/* Icono de "Menu Hamburgusa" oculto al usarse en PC */
+.checkbtn{
+    font-size: 30px;
+    color: #ffffff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+/* Icono de Usuario */
+.login-icon {
+    color: white;
+}
+
+/* El "checkbox" ya no es visible */
+#check{
+    display: none;
+}
+
+/* Diseño para los botones*/
+.boton {
+    background: #7f8c8d;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.25em;
+    margin: 20px;
+    padding: 10px 0;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    box-shadow: 0 3px 0 #373c3c;
+    border-radius: 50px;
+    font-family: Arial, sans-serif;
+}
+
+.boton:hover {
+    box-shadow: 0 0 0 0;
+    padding: 7px;
+    transition: .4s;
+    background: darkslateblue;
+}
+/* Titulo del proyecto */
+.tProyecto {
+    margin: 30px;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    text-transform: uppercase;
+}
+/* Informacion del proyecto */
+.infoProyecto {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+}
+
+ul li a.
+
+/*:::Responsive para Tablet:::*/
+@media (max-width: 952px) {
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+/*:::Responsive para celulares:::*/
+@media (max-width: 858px) {
+    .checkbtn{
+        display: block;
+
+    }
+    ul {
+        position: fixed;
+        left: 100%;
+    }
+}
