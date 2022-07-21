@@ -1,2 +1,0 @@
-https://github.com/Piwigo/TakeATour.git
-4eb7de85dc3e710b20e6897e71b578dd8558a346 2022-06-28 07:24:37 +0200
