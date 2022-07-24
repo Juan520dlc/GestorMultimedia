@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link href="../assets/css/register.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="login">
+    <h1>REGISTRATE</h1>
+    <div id="signup">
+        <form method="post" action="register.php" name="signup">
+            <label>Nombre</label>
+            <input type="text" name="nameReg" autocomplete="off"/>
+            <label>Correo</label>
+            <input type="text" name="emailReg" autocomplete="off"/>
+            <label>Nombre de Usuario</label>
+            <input type="text" name="usernameReg" autocomplete="off"/>
+            <label>Contraseña</label>
+            <input type="password" name="passwordReg" autocomplete="off"/>
+            <div class="errorMsg"><?php echo $errorMsgReg; ?></div>
+            <input type="submit" class="button" name="signupSubmit" value="Registrarse">
+        </form>
+    </div>
+</div>
+</body>
+</html>

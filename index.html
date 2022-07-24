@@ -1,66 +1,81 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Proyecto Majadas</title>
     <!-- HOJA DE ESTILOS -->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-<!-- Barra de Navegacion  -->
-<nav class="navbar bg-light">
-    <!-- Logo -->
-    <a href="index.html" class="index_link">
-        <img src="img/logo_prueba.jpg" alt="" class="logo">
-    </a>
-    <!-- Caja de verificacion que corresponde al icono de "menu" -->
-    <input type="checkbox" id="check">
-    <label for="check" class="checkbtn">
-        <!-- Icono "Usuario" -->
-        <a class="login-icon" href="manager/index.php">
-            <span class="fa-solid fa-user"></span>
+    <!-- Barra de Navegacion  -->
+    <nav class="navbar bg-light">
+        <!-- Logo -->
+        <a href="index.html" class="index_link">
+            <img src="img/logo_prueba.jpg" alt="" class="logo">
         </a>
-    </label>
-    <ul>
-        <li><a href="login.html">Iniciar Sesion</a></li>
-    </ul>
-</nav>
-<div>
-    <h1 class="tProyecto">Proyecto Majadas</h1>
-    <p class="infoProyecto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet tincidunt elit, ut
-        facilisis ligula. In
-        vel magna at odio tincidunt blandit a at purus. Vivamus sed erat viverra, lacinia nunc quis, dignissim neque.
-        Pellentesque faucibus fermentum justo quis tincidunt. Mauris eget ultrices felis, sed lacinia diam. Nunc nunc
-        nunc, ullamcorper ac tellus in, rhoncus convallis mi. Sed faucibus odio lorem, id dignissim odio luctus vitae.
-        Morbi ut velit sed eros finibus varius. Maecenas maximus dapibus nunc sit amet tempor. Donec odio eros, suscipit
-        sed mi elementum, consequat euismod magna. Maecenas lacinia pharetra mi, vel imperdiet justo.</p>
-    <p class="infoProyecto">Sed rutrum augue felis, quis pulvinar diam malesuada quis. Pellentesque feugiat sapien eros,
-        ac pulvinar eros
-        sagittis a. Praesent tempor sapien quis porttitor tincidunt. Nullam placerat nunc id risus interdum vulputate.
-        Curabitur porta orci in turpis volutpat, sit amet semper turpis laoreet. Aliquam erat volutpat. Sed quis tempus
-        enim, vitae auctor diam.</p>
-    <p class="infoProyecto">Praesent vehicula odio id tincidunt euismod. Morbi sit amet est hendrerit, placerat dolor a,
-        fringilla est. Donec
-        vulputate iaculis posuere. Aliquam erat volutpat. Nullam fermentum turpis non nisi lacinia tempor. Proin nec ex
-        id lectus aliquam facilisis. Donec rutrum ut lectus eu maximus. Nullam mattis lacus in leo rhoncus vehicula.
-        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut et gravida turpis. Ut
-        facilisis lacus nec sagittis dignissim. Proin lobortis ac turpis nec iaculis. Pellentesque ut odio a mi
-        malesuada rhoncus sit amet a ante. Phasellus ornare est arcu, placerat ultrices nisi tristique vel.</p>
-</div>
-<div style="text-align: center">
-    <a href="manager/index.php" class="boton">
-        Ver Galería <span class="fa-solid fa-arrow-right"></span>
-    </a>
-</div>
-<!-- SCRIPTS -->
-<!-- Bootstrap Script -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
+        <!-- Caja de verificacion que corresponde al icono de "menu" -->
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <!-- Icono "Usuario" -->
+            <a class="login-icon" href="login/login.html">
+                <span class="fa-solid fa-user"></span>
+            </a>
+        </label>
+        <ul>
+            <li><a href="login/register.html">Registrarse</a></li>
+            <li><a href="login/login.html">Iniciar Sesion</a></li>
+        </ul>
+    </nav>
+    <div>
+        <h1 class="tProyecto">Proyecto Majadas</h1>
+        <p class="infoProyecto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet tincidunt elit,
+            ut
+            facilisis ligula. In
+            vel magna at odio tincidunt blandit a at purus. Vivamus sed erat viverra, lacinia nunc quis, dignissim
+            neque.
+            Pellentesque faucibus fermentum justo quis tincidunt. Mauris eget ultrices felis, sed lacinia diam. Nunc
+            nunc
+            nunc, ullamcorper ac tellus in, rhoncus convallis mi. Sed faucibus odio lorem, id dignissim odio luctus
+            vitae.
+            Morbi ut velit sed eros finibus varius. Maecenas maximus dapibus nunc sit amet tempor. Donec odio eros,
+            suscipit
+            sed mi elementum, consequat euismod magna. Maecenas lacinia pharetra mi, vel imperdiet justo.</p>
+        <p class="infoProyecto">Sed rutrum augue felis, quis pulvinar diam malesuada quis. Pellentesque feugiat sapien
+            eros,
+            ac pulvinar eros
+            sagittis a. Praesent tempor sapien quis porttitor tincidunt. Nullam placerat nunc id risus interdum
+            vulputate.
+            Curabitur porta orci in turpis volutpat, sit amet semper turpis laoreet. Aliquam erat volutpat. Sed quis
+            tempus
+            enim, vitae auctor diam.</p>
+        <p class="infoProyecto">Praesent vehicula odio id tincidunt euismod. Morbi sit amet est hendrerit, placerat
+            dolor a,
+            fringilla est. Donec
+            vulputate iaculis posuere. Aliquam erat volutpat. Nullam fermentum turpis non nisi lacinia tempor. Proin nec
+            ex
+            id lectus aliquam facilisis. Donec rutrum ut lectus eu maximus. Nullam mattis lacus in leo rhoncus vehicula.
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut et gravida
+            turpis. Ut
+            facilisis lacus nec sagittis dignissim. Proin lobortis ac turpis nec iaculis. Pellentesque ut odio a mi
+            malesuada rhoncus sit amet a ante. Phasellus ornare est arcu, placerat ultrices nisi tristique vel.</p>
+    </div>
+    <div style="text-align: center">
+        <a href="manager/index.php" class="boton">
+            Ver Galería <span class="fa-solid fa-arrow-right"></span>
+        </a>
+    </div>
+    <!-- SCRIPTS -->
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
