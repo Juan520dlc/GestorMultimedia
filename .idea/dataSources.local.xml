@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="dataSourceStorageLocal" created-in="PY-221.6008.17">
-    <data-source name="Proyecto" uuid="7b111d4b-d37d-44ab-9df8-51992a4be370">
+  <component name="dataSourceStorageLocal" created-in="PS-221.6008.16">
+    <data-source name="Base de Datos Proyecto Majadas" uuid="c70b13ef-718f-4d84-a332-2808d83c65ef">
       <database-info product="MySQL" version="5.5.5-10.4.24-MariaDB" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MARIADB" exact-version="10.4.24" exact-driver-version="8.0">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="schema" negative="1" />
+          <node kind="schema" qname="@" />
         </introspection-scope>
       </schema-mapping>
     </data-source>

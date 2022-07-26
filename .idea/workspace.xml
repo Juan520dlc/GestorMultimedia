@@ -6,10 +6,34 @@
   <component name="ChangeListManager">
     <list default="true" id="033fab87-5f1e-4a05-8a27-218dfa9d42d3" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/FUNDING.yml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/clases/Categorias.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/clases/Conexion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/clases/Gestor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/clases/Usuario.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/css/inicio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/js/categorias.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/js/gestor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/procesos/categorias/actualizaCategoria.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/procesos/categorias/agregarCategoria.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/procesos/categorias/eliminarCategoria.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/procesos/categorias/obtenerCategoria.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/procesos/gestor/eliminarArchivo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/procesos/gestor/obtenerArchivo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/procesos/usuario/login/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/procesos/usuario/registro/agregarUsuario.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/procesos/usuario/salir.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/vistas/categorias.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/vistas/categorias/selectCategorias.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/vistas/categorias/tablaCategoria.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/vistas/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/vistas/gestor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/vistas/gestor/tablaGestor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/vistas/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manager/vistas/inicio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dos-ingenierias-proyectos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dos-ingenierias-proyectos.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Services/IProyectsService.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/form.css" beforeDir="false" />
@@ -30,9 +54,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="package.json" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -74,7 +98,7 @@
     &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;proofread&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -85,6 +109,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dos-ingenierias-proyectos\login" />
       <recent name="C:\Users\Gaming\Documents\GitHub\dos-ingenierias-proyectos\js" />
       <recent name="C:\Users\Gaming\Documents\GitHub\dos-ingenierias-proyectos" />
     </key>
@@ -127,9 +152,13 @@
       <workItem from="1658406828632" duration="32000" />
       <workItem from="1658426685407" duration="10871000" />
       <workItem from="1658545788794" duration="2017000" />
-      <workItem from="1658548812344" duration="6223000" />
-      <workItem from="1658591047776" duration="4479000" />
-      <workItem from="1658645510599" duration="330000" />
+      <workItem from="1658548812344" duration="4408000" />
+      <workItem from="1658568819737" duration="5302000" />
+      <workItem from="1658591108053" duration="3157000" />
+      <workItem from="1658643366553" duration="800000" />
+      <workItem from="1658645440630" duration="18347000" />
+      <workItem from="1658666818448" duration="647000" />
+      <workItem from="1658677001968" duration="56892000" />
     </task>
     <servers />
   </component>
