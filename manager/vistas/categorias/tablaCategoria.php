@@ -11,11 +11,11 @@ $conexion = $conexion->conexion();
 <div class="table-responsive">
     <table class="table table-hover table-dark" id="tablaCategoriasDataTable">
         <thead>
-        <tr style="text-align: center;">
-            <td>Nombre</td>
-            <td>Fecha</td>
-            <td>Editar</td>
-            <td>Eliminar</td>
+        <tr>
+            <td style="text-align: center">Nombre</td>
+            <td style="text-align: center">Fecha</td>
+            <td style="text-align: center">Editar</td>
+            <td style="text-align: center">Eliminar</td>
         </tr>
         </thead>
         <tbody>

@@ -2,14 +2,15 @@
 <html>
 <head>
     <title>Proyecto Majadas</title>
-    <!-- Bootstrap -->
+    <!-- Bootstrap4 -->
     <link rel="stylesheet" type="text/css" href="../librerias/bootstrap4/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../librerias/bootstrap4/bootstrap.bundle.min.js">
     <link rel="stylesheet" type="text/css" href="../librerias/datatable/dataTables.bootstrap4.min.css">
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet" type="text/css" href="../librerias/bootstrap5/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../librerias/bootstrap5/bootstrap.bundle.min.js">
     <!-- Font Awesome -->
     <link rel="stylesheet" type="text/css" href="../librerias/fontawesome/css/all.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body style="background-color: #e9ecef">
 <!-- Navigation -->
@@ -27,16 +28,16 @@
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="inicio.php">
-                        Inicio<span class="fa-solid fa-house"style="margin-left: 5px"></span>
+                        Inicio<span class="fa-solid fa-house" style="margin-left: 5px"></span>
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <!-- Categorias -->
                 <li class="nav-item">
                     <a class="nav-link" href="categorias.php">
-                        Categorias<span class="fa-solid fa-folder-tree" style="margin-left: 5px"></span>
+                        Álbumes<span class="fa-solid fa-folder-tree" style="margin-left: 5px"></span>
                     </a>
-                <!-- Gestor de Archivos -->
+                    <!-- Gestor de Archivos -->
                 <li class="nav-item">
                     <a class="nav-link" href="gestor.php">
                         Archivos<span class="fa-solid fa-folder-open" style="margin-left: 5px"></span>

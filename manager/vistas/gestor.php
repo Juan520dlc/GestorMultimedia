@@ -28,7 +28,7 @@ if (isset($_SESSION['usuario'])) {
                 </div>
                 <div class="modal-body">
                     <form id="frmArchivos" enctype="multipart/form-data" method="post">
-                        <label>Categoría</label>
+                        <label>Álbum</label>
                         <div id="categoriasLoad"></div>
                         <label>Selecciona tus archivos</label>
                         <input type="file" name="archivos[]" id="archivos[]" class="form-control" multiple="">
@@ -42,7 +42,7 @@ if (isset($_SESSION['usuario'])) {
         </div>
     </div>
 
-    <!-- Modal -->
+    <!-- Modal para visualizar archivos-->
     <div class="modal fade" id="visualizarArchivo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">

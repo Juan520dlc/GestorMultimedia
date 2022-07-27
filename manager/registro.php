@@ -8,11 +8,13 @@
 
     <!-- JQuery -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Bootstrap -->
+    <!-- Bootstrap CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"
           id="bootstrap-css">
-    <!-- Bootstrap -->
+    <!-- Bootstrap JS -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" type="text/css" href="css/registro.css">
 </head>
 <body>
 <div class="container">
@@ -36,8 +38,7 @@
                     <div class="col-sm-6 text-left">
                         <button class="btn btn-primary">Registrar</button>
                     </div>
-                    <div class="col-sm-6 text-center">
-                        <a href="../index.html" class="btn btn-success">Volver</a>
+                    <div class="col-sm-6 text-right">
                         <a href="index.php" class="btn btn-success">Login</a>
                     </div>
                 </div>
@@ -62,12 +63,12 @@ al registrar un nuevo usuario -->
                 respuesta = respuesta.trim();
 
                 if (respuesta == 1) {
-                    $('#frmRegistro')[0].reset();
-                    swal(":D", "Agregado con exito!", "success");
+                    swal(":(", "Fallo al agregar!", "error");
                 } else if (respuesta == 2) {
                     swal("Este nombre de usuario ya existe, por favor escribe otro! :/");
                 } else {
-                    swal(":(", "Fallo al agregar!", "error");
+                    swal(":D", "Agregado con exito!", "success");
+                    $('#frmRegistro')[0].reset();
                 }
             }
         });
