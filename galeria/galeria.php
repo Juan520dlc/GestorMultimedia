@@ -1,7 +1,11 @@
 <?php
-require_once "../manager/clases/Conexion.php";
-$c = new Conectar();
-$conexion = $c->conexion();
+require_once "../manager/clases/Categorias.php";
+$Categorias = new Categorias();
+
+echo json_encode($Categorias->obtenerCategoria($_POST['idCategoria']));
+
+$conexion = new Conectar();
+$conexion = $conexion->conexion();
 ?>
 
 <!DOCTYPE html>
@@ -22,26 +26,16 @@ $conexion = $c->conexion();
     </div>
     <div class="row justify-content-center text-center">
         <?php
-        $sql = "SELECT * FROM t_archivos";
+        $sql = "SELECT id_categoria,
+                            nombre
+                    FROM t_categorias";
         $result = mysqli_query($conexion, $sql);
 
         while ($mostrar = mysqli_fetch_array($result)) {
             $idCategoria = $mostrar['id_categoria'];
             ?>
-            <div class="col-lg-4 col-xl-4 col-md-4 col-sm-6 pb-2">
-                <div class="card">
-                    <a href="" data-toggle="modal"
-                       data-target="<?php echo '#' . $result['id_categoria'] ?>"><img
-                                src="<?php echo $result['ruta'] ?>"
-                                alt="" class="card-img-top"></a>
-                    <div class="modal fade" id="imagen" tabindex="-1" aria-labelledby="exampleModalLabel"
-                         aria-hidden="true">
-                        <div class="modal-dialog modal-lg modal-dialog-centered justify-content-center text-center"
-                             role="document">
-                            <img src="<?php echo $result['ruta'] ?>" alt="" class="card-img-top">
-                        </div>
-                    </div>
-                </div>
+            <div>
+                <p><?php echo $mostrar['nombre'] ?></p>
             </div>
         <?php
         }
