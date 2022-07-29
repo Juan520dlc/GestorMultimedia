@@ -78,6 +78,8 @@ class Gestor extends Conectar
                 return '<audio src="'.$ruta.'" controls></video>';
             case 'mp4':
                 return '<video src="'.$ruta.'" controls width="100%" height="600px"></video>';
+            case 'MOV':
+                return '<video src="' . $ruta . '" controls width="100%" height="600px"></video>';
         }
     }
 }

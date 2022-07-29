@@ -31,8 +31,8 @@ if (isset($_SESSION['usuario'])) {
         <img src="../img/logo_prueba.jpg" alt="" height="200">
     </div>
     <div style="text-align: center">
-        <button type="button" class="btn btn-primary">Ver Galería
+        <span type="button" class="btn btn-primary">Ver Galería
             <i class="fa-solid fa-arrow-right"></i>
-        </button>
+        </span>
     </div>
 </div>

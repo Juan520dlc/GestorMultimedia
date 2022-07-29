@@ -44,7 +44,7 @@ $result = mysqli_query($conexion, $sql);
                  * Arreglo de extensiones validas
                  * */
 
-                $extensionesValidas = array('png', 'jpg', 'jpeg', 'mp3', 'mp4');
+                $extensionesValidas = array('png', 'jpg', 'jpeg', 'mp3', 'mp4', 'MOV');
 
                 while ($mostrar = mysqli_fetch_array($result)) {
 
